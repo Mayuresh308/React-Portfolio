@@ -92,7 +92,7 @@ export const NavBar = () => {
                   <img src={navIcon2} alt="LinkedIn Profile" />
                 </a>
                 
-                <a href="#">
+                <a href="https://mayuresh308.github.io/coming-soon/">
                   <img src={navIcon3} alt="" />
                 </a>
               </div>
