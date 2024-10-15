@@ -1,11 +1,11 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/pi1.jpg";
-import projImg2 from "../assets/img/pi2.jpg";
-import projImg3 from "../assets/img/pi3.png";
+import projImg2 from "../assets/img/pi2.png";
+import projImg3 from "../assets/img/pi3.jpg";
 import projImg4 from "../assets/img/pi4.jpg";
 import projImg5 from "../assets/img/pi5.jpg";
-import projImg6 from "../assets/img/pi6.png";
+import projImg6 from "../assets/img/pi6.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -15,25 +15,25 @@ import TrackVisibility from "react-on-screen";
 export const Projects = () => {
   const projects = [
     {
-      title: "Placement Cell Application",
+      title: "Real Estate Application",
       description:
-        "Developed a Placement Cell web app with React, Node.js, Express, and MongoDB for managing student placements, including user authentication, profile management, job postings, and application tracking. Deployed on Render.",
+        "Developed a real estate platform using the MERN stack that includes secure user authentication and property management. The application features a dynamic frontend with React.js, allowing users to browse property listings and manage their accounts seamlessly.",
       imgUrl: projImg1,
-       link:"https://github.com/Mayuresh308/Placement_cell.git",
+       link:"https://github.com/Mayuresh308/MERN-Real-Estate.git",
     },
     {
-      title: "Employee Review System",
+      title: "Social Media Application",
       description:
-        "Developed a backend application for employee feedback, task assignment, and review management, enhancing workplace dynamics and supporting company growth.",
+        "Developed a MERN stack application that connects users, allowing them to share stories and interact through features like login/logout, likes, comments, and media uploads. The project includes a responsive frontend built with React, a robust backend using Node.js, and data management through MongoDB.",
       imgUrl: projImg2,
-      link:"https://github.com/Mayuresh308/Employee-Review-System.git",
+      link:"https://github.com/Mayuresh308/social-media.git",
     },
     {
-      title: "MERN Chat Application",
+      title: "React CodeEditor",
       description:
-        "A real-time chat application built with modern web technologies. This app features user authentication, one-on-one messaging, and chat rooms, offering a seamless and interactive communication experience.",
+        "A lightweight code editor developed with React and Vite, featuring an interactive interface for real-time coding. It integrates Monaco Editor for a seamless editing experience and utilizes Chakra UI for a stylish, responsive design, enhanced by Framer Motion for smooth animations that create a dynamic user interface.",
       imgUrl: projImg3,
-      link:"https://github.com/Mayuresh308/chat-app.git",
+      link:"https://github.com/Mayuresh308/React-Vite-CodeEditor.git",
     },
     {
       title: "Rock & Mine Prediction ",
@@ -43,18 +43,18 @@ export const Projects = () => {
       link:"https://github.com/Mayuresh308/Rock-vs-Mine-Prediction.git",
     },
     {
-      title: "Speech-to-Text ",
+      title: "Body Language Decoder",
       description:
-        "Python app for audio-to-text transcription using SpeechRecognition with error handling and WER evaluation, demonstrating expertise in NLP and audio processing. Technologies used: Python, SpeechRecognition, jiwer, Google Speech Recognition API.",
+        "Created a real-time body language decoder using Mediapipe and OpenCV, enabling the detection of facial expressions and hand gestures via webcam input. Utilized a machine learning classifier to predict body language classes with high accuracy.",
       imgUrl: projImg5,
-      link:"https://github.com/Mayuresh308/Speech-to-Text-with-WER.git",
+      link:"https://github.com/Mayuresh308/Body-Language-Decoder-Python-ML.git",
     },
     {
-      title: "React TODO (Todiify)",
+      title: "Number Plate Detection",
       description:
-        " A task management app developed with React. It allows users to create, edit, and delete tasks, featuring a clean interface for managing daily to-dos efficiently.",
+        "Developed a real-time number plate detection system using TensorFlow and EasyOCR, implementing transfer learning for improved accuracy on custom datasets. Integrated Optical Character Recognition (OCR) for efficient text extraction from detected plates in both images and live webcam feeds.",
       imgUrl: projImg6,
-      link:"https://github.com/Mayuresh308/React-Todo-application.git",
+      link:"https://github.com/Mayuresh308/Number-Plate-Detection.git",
     },
   ];
 
