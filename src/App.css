@@ -341,6 +341,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Projects Css ************/
+
+.see-more {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.see-more a {
+  color: #007bff; /* Customize this color */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.see-more a:hover {
+  text-decoration: underline;
+}
+
+
 .project {
   padding: 80px 0;
   position: relative;

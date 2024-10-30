@@ -19,42 +19,42 @@ export const Projects = () => {
       description:
         "Developed a real estate platform using the MERN stack that includes secure user authentication and property management. The application features a dynamic frontend with React.js, allowing users to browse property listings and manage their accounts seamlessly.",
       imgUrl: projImg1,
-       link:"https://github.com/Mayuresh308/MERN-Real-Estate.git",
+      link: "https://github.com/Mayuresh308/MERN-Real-Estate.git",
     },
     {
       title: "Social Media Application",
       description:
         "Developed a MERN stack application that connects users, allowing them to share stories and interact through features like login/logout, likes, comments, and media uploads. The project includes a responsive frontend built with React, a robust backend using Node.js, and data management through MongoDB.",
       imgUrl: projImg2,
-      link:"https://github.com/Mayuresh308/social-media.git",
+      link: "https://github.com/Mayuresh308/social-media.git",
     },
     {
       title: "React CodeEditor",
       description:
         "A lightweight code editor developed with React and Vite, featuring an interactive interface for real-time coding. It integrates Monaco Editor for a seamless editing experience and utilizes Chakra UI for a stylish, responsive design, enhanced by Framer Motion for smooth animations that create a dynamic user interface.",
       imgUrl: projImg3,
-      link:"https://github.com/Mayuresh308/React-Vite-CodeEditor.git",
+      link: "https://github.com/Mayuresh308/React-Vite-CodeEditor.git",
     },
     {
       title: "Rock & Mine Prediction ",
       description:
         "Implemented machine learning algorithms in Python to classify underwater objects as rocks or mines using the Sonar dataset, which includes 208 sonar signal observations and 60 features.",
       imgUrl: projImg4,
-      link:"https://github.com/Mayuresh308/Rock-vs-Mine-Prediction.git",
+      link: "https://github.com/Mayuresh308/Rock-vs-Mine-Prediction.git",
     },
     {
       title: "Body Language Decoder",
       description:
         "Created a real-time body language decoder using Mediapipe and OpenCV, enabling the detection of facial expressions and hand gestures via webcam input. Utilized a machine learning classifier to predict body language classes with high accuracy.",
       imgUrl: projImg5,
-      link:"https://github.com/Mayuresh308/Body-Language-Decoder-Python-ML.git",
+      link: "https://github.com/Mayuresh308/Body-Language-Decoder-Python-ML.git",
     },
     {
       title: "Number Plate Detection",
       description:
         "Developed a real-time number plate detection system using TensorFlow and EasyOCR, implementing transfer learning for improved accuracy on custom datasets. Integrated Optical Character Recognition (OCR) for efficient text extraction from detected plates in both images and live webcam feeds.",
       imgUrl: projImg6,
-      link:"https://github.com/Mayuresh308/Number-Plate-Detection.git",
+      link: "https://github.com/Mayuresh308/Number-Plate-Detection.git",
     },
   ];
 
@@ -103,7 +103,17 @@ export const Projects = () => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                         </Row>
+                        <div className="see-more">
+                          <a
+                            href=" https://mayuresh308.github.io/Project-Gallery/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            See More
+                          </a>
+                        </div>
                       </Tab.Pane>
+
                       <Tab.Pane eventKey="second">
                         <p>
                           Bachelor of Technology (B.Tech) in Mechanical
@@ -123,13 +133,13 @@ export const Projects = () => {
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
                         <p>
-                          Full Stack Web Development Course at Coding Ninjas. This
-                          comprehensive course equipped me with the fundamental
-                          skills and knowledge necessary to excel in the field
-                          of web development. Delivered by Coding Ninjas, a
-                          leading online education platform, the curriculum
-                          covers a wide range of topics including HTML, CSS,
-                          JavaScript, React.js, Node.js, and MongoDB.
+                          Full Stack Web Development Course at Coding Ninjas.
+                          This comprehensive course equipped me with the
+                          fundamental skills and knowledge necessary to excel in
+                          the field of web development. Delivered by Coding
+                          Ninjas, a leading online education platform, the
+                          curriculum covers a wide range of topics including
+                          HTML, CSS, JavaScript, React.js, Node.js, and MongoDB.
                           <a
                             href="https://drive.google.com/drive/folders/182Yey0XgPjXVgdhrjCrtIrdSUm6FReWy?usp=drive_link"
                             target="_blank"
